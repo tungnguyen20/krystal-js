@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "allowJs": true,
+      "declaration": true,
+      "skipLibCheck": true,
+      "preserveConstEnums": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "lib": ["es5", "es2015", "DOM"],
+      "outDir": "./dist",
+    },
+    "include": ["./src"],
+    "exclude": ["node_modules", "**/__tests__/*"]
+  }
