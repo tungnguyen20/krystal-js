@@ -3,7 +3,7 @@
     "private": true,
     "workspaces": [
         "packages/*",
-        "example/*"
+        "demo/*"
     ],
     "scripts": {
         "clean": "yarn workspaces foreach --include=\"@krystal-js/*\" -ptv run clean",
